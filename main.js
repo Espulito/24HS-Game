@@ -3,22 +3,22 @@ const contM = document.getElementById("contM");
 const contH = document.getElementById("contH");
 const contD = document.getElementById("contD");
 
-let s = localStorage.getItem("s") || 0;
-let m = localStorage.getItem("m") || 0;
-let h = localStorage.getItem("h") || 0;
-let d = localStorage.getItem("d") || 0;
+let s = localStorage.getItem("S") || 0;
+let m = localStorage.getItem("M") || 0;
+let h = localStorage.getItem("H") || 0;
+let d = localStorage.getItem("D") || 0;
 
-if (localStorage.getItem("s") === null) {
-  localStorage.setItem("s", s);
+if (localStorage.getItem("S") === null) {
+  localStorage.setItem("S", s);
 }
-if (localStorage.getItem("m") === null) {
-  localStorage.setItem("m", m);
+if (localStorage.getItem("M") === null) {
+  localStorage.setItem("M", m);
 }
-if (localStorage.getItem("h") === null) {
-  localStorage.setItem("h", h);
+if (localStorage.getItem("H") === null) {
+  localStorage.setItem("H", h);
 }
-if (localStorage.getItem("d") === null) {
-  localStorage.setItem("d", d);
+if (localStorage.getItem("D") === null) {
+  localStorage.setItem("D", d);
 }
 
 contS.innerHTML = s;
@@ -50,8 +50,8 @@ setInterval(() => {
   contH.innerHTML = h + ":";
   contD.innerHTML = d + ":";
 
-  localStorage.setItem("s", s);
-  localStorage.setItem("m", m);
-  localStorage.setItem("h", h);
-  localStorage.setItem("d", d);
+  localStorage.setItem("S", s);
+  localStorage.setItem("M", m);
+  localStorage.setItem("H", h);
+  localStorage.setItem("D", d);
 }, 1000);
