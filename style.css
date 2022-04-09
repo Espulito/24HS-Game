@@ -24,12 +24,13 @@ p {
   font-size: 3.2em;
 }
 .cont .contNums {
-  font-size: 20vw;
+  font-size: 15vw;
   font-weight: bold;
 }
 .cont .contNums .contD,
 .cont .contNums .contS,
-.cont .contNums .contH {
+.cont .contNums .contH,
+.cont .contNums .contM {
   display: inline;
 }
 

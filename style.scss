@@ -32,11 +32,12 @@ p {
     font-size: 3.2em;
   }
   .contNums {
-    font-size: calc(60vw / 3);
+    font-size: calc(60vw / 4);
     font-weight: bold;
     .contD,
     .contS,
-    .contH {
+    .contH,
+    .contM {
       display: inline;
     }
   }
