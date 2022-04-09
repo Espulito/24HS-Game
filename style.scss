@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
+
+$rojo: #f02240;
+$amarillo: #f0c951;
+$amarilloOsc: #b1890f;
+$rosa: #f03a54;
+$rojoOsc: #a60c22;
+$verde: #65f080;
+$azul: #2e4ef0;
+
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+h1,
+h4,
+p {
+  font-family: "Saira", sans-serif;
+}
+
+.title {
+  font-size: 2.6em;
+  text-align: center;
+  background-color: $azul;
+  padding: 10px 0;
+}
+
+.cont {
+  text-align: center;
+  .contText {
+    color: $rojo;
+    font-size: 3.2em;
+  }
+  .contNums {
+    font-size: calc(60vw / 3);
+    font-weight: bold;
+    .contD,
+    .contS,
+    .contH {
+      display: inline;
+    }
+  }
+}

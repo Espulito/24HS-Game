@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+h1,
+h4,
+p {
+  font-family: "Saira", sans-serif;
+}
+
+.title {
+  font-size: 2.6em;
+  text-align: center;
+  background-color: #2e4ef0;
+  padding: 10px 0;
+}
+
+.cont {
+  text-align: center;
+}
+.cont .contText {
+  color: #f02240;
+  font-size: 3.2em;
+}
+.cont .contNums {
+  font-size: 20vw;
+  font-weight: bold;
+}
+.cont .contNums .contD,
+.cont .contNums .contS,
+.cont .contNums .contH {
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
